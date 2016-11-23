@@ -1,0 +1,53 @@
+<!--
+ * pure-css-mobile-menu
+ *
+ * Turn a vertical navigation into a horizontal into a responsive mobile slide-out menu with pure css
+ *
+ * This content is released under the MIT License (MIT)
+ *
+ * Copyright (c) 2016, raschid
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS-Navigation</title>
+
+  <!-- This makes sure, the mobile menu linkstack is displayed on small screens -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+<link rel="stylesheet" href="pure-css-mobile-menu.css">
+</head>
+<body>
+<div id="container">
+  <header id="header">
+    <h1>Header</h1>
+  </header>
+
+  <div class="main">
+    <nav id="nav">
+      <input type="checkbox" id="mobmenu"/>
+      <label for="mobmenu" onclick="">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAQUlEQVRIiWNgoAO4wMDA8J9G+CwjlEEr8I+JhoYzMDAwMNDFgus0NP8aDc0eTmA0H+AFo/lghIDRfIAXjOaDgQcAWcpRqVl+qEMAAAAASUVORK5CYII=">
+      </label>
+      <div>  
+        <span id="menu-label">Menu:</span>
+        <ul>
+          <li><a href="#">Homepage</a></li>
+          <li><a href="#">Link to this</a></li>
+          <li><a href="#">Link to that</a></li>
+        </ul> 
+      </div> 
+    </nav>
+    <div id="content">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse fugiat veritatis impedit natus, iste nemo dolor amet, repellat ea saepe sequi assumenda ducimus quas delectus illum eveniet tempora doloremque, aperiam blanditiis necessitatibus dolores debitis possimus? Delectus iusto ab repellat ipsum. Repellendus assumenda similique ullam asperiores veniam corrupti minus tenetur dolorum?
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores assumenda quam error nemo at unde eos laborum provident voluptate sed, iste eligendi commodi maiores magnam modi ipsum praesentium minima ab inventore doloremque, eveniet aperiam nesciunt sint accusamus. Vero excepturi, quos.</p>
+    </div>
+  </div>
+  <footer id="footer"><h2>Footer</h2></footer>
+</div>
+</body>
+</html>
