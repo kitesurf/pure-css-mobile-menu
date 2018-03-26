@@ -14,7 +14,7 @@ on the wrapping container (_#main_) and the nav- and content-collumns (_#nav_, _
 
 ~~To avoid any external dependencies i used data-URI for the three-bar mobile menu-button. _(See the image-tag inside the checkbox-label in the nav-container)_~~
 
-For the menu-bar-symbol I used HTML-entity ´&#9776;´. 
+For the menu-bar-symbol I used HTML-entity ’&amp;#9776;’. 
 
 
 You can easily create a data-URI from your own menu-button by using a service like http://dataurl.net.
